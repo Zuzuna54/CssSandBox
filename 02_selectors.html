@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Selectors</title>
+  <style>
+    body {
+      background-color: #333;
+    }
+
+    .primary-green {
+      color:  green;
+    }
+
+    #welcome {
+      background-color: #f4f4f4;
+    }
+
+    /* Multiple Selectors */
+    #welcome, #about-us {
+      border: 1px solid #cccccc;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    /* Nested Selectors */
+    #welcome p {
+      font-size: 20px;
+    }
+
+    #about-us {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="welcome">
+    <h2 class="primary-green">Welcome</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae quos ratione in corporis, aut quae facilis exercitationem distinctio voluptas.
+    </p>
+  </div>
+  <div id="about-us">
+    <h2>About us</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus rerum suscipit eos! Ab, laudantium soluta perferendis quam temporibus quo placeat.
+    </p>
+  </div>
+</body>
+</html>
